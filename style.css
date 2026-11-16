@@ -108,3 +108,53 @@ footer{
     color: rgb(127, 255, 189);
     margin: 10px;
     padding: 2px;}
+
+conteiner{
+    background-color: cadetblue;
+    border: 2px solid rgb(80, 132, 134);
+    display: flex;
+    width: 200px;
+    margin: 5px;
+}
+
+.yellow{
+    background-color: rgb(231, 231, 13);
+    border: 2px solid rgb(134, 133, 80);
+    padding: 10px;
+    margin: 2px;
+}
+
+.pink{
+    background-color: pink;
+    border: 2px solid rgb(134, 80, 124);
+    padding: 10px;
+    margin: 2px;
+}
+
+.green{
+    background-color: green;
+    border: 2px solid rgb(80, 134, 104);
+    padding: 10px;
+    margin: 2px;
+}
+
+#start{
+    justify-content: flex-start;
+}
+
+#end{
+    justify-content: flex-end;
+}
+
+#centre{
+    justify-content: center;
+}
+#space-around{
+    justify-content: space-around;
+}
+#space-between{
+    justify-content: space-between;
+}
+#space-evenly{
+    justify-content: space-evenly;
+}
