@@ -113,7 +113,6 @@ conteiner{
     background-color: cadetblue;
     border: 2px solid rgb(80, 132, 134);
     display: flex;
-    width: 200px;
     margin: 5px;
 }
 
@@ -140,21 +139,44 @@ conteiner{
 
 #start{
     justify-content: flex-start;
+    width: 200px;
 }
 
 #end{
     justify-content: flex-end;
+    width: 200px;
 }
 
 #centre{
     justify-content: center;
+    width: 200px;
 }
 #space-around{
     justify-content: space-around;
+    width: 200px;
 }
 #space-between{
     justify-content: space-between;
+    width: 200px;
 }
 #space-evenly{
     justify-content: space-evenly;
+    width: 200px;
+}
+
+#row{
+    display: inline-flex;
+    flex-direction: row;
+}
+#row-reverse{
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+#column{
+    display: inline-flex;
+    flex-direction: column;
+}
+#column-reverse{
+    display: inline-flex;
+    flex-direction: column-reverse;
 }
