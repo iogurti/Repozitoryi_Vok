@@ -1,0 +1,90 @@
+body{
+background-image: url(image/bgimg.jpg);
+font-family: Lorem;
+}
+
+.text_o{
+    color: rgb(200, 187, 170);
+    text-align: left;
+}
+
+.text_t{
+   color: rgb(215, 185, 148);
+   text-align: right; 
+}
+
+.text_fr{
+    color: rgb(185, 171, 151);
+    text-align: center;
+}
+
+.text_fo{
+    color: rgb(201, 173, 81);
+    text-align: justify;
+}
+
+.text_f{
+    color: burlywood;
+    text-align: start;
+}
+
+li::marker {
+  content: "★";
+  color: gold;
+}
+li{
+    color: rgb(149, 126, 95);
+}
+
+p{
+    color: rgb(149, 126, 95);
+}
+
+h1{
+    color: rgb(121, 101, 74);
+}
+h2{
+    color: rgb(141, 118, 89);
+}
+
+table{
+    color: rgb(149, 126, 95);
+}
+
+#large_matryoshka{
+    border: 2px solid rgb(211, 84, 84);
+    
+}
+#medium_matryoshka{
+    border: 3px dashed rgb(181, 84, 211);
+    margin: 50px;
+    background-color: aliceblue;   
+}
+#little_matryoshka{
+    border: 5px double aquamarine;
+    margin: 30px;
+    padding: 10px;
+}
+
+#text{
+    align-items: center;
+}
+
+#span1 {
+    color: darkgoldenrod;
+    border: 1px dotted rgb(125, 127, 90);
+}
+
+#span2 {
+    color:darkkhaki;
+    border: 1px dotted rgb(125, 127, 90);
+}
+
+#span3 {
+    color:goldenrod;
+    border: 1px dotted rgb(125, 127, 90);
+}
+
+footer{
+    margin: 30px;
+}
